@@ -62,11 +62,8 @@ const Contact = () => {
 						src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2923.6877576179327!2d74.60914417631918!3d42.87943417114929!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x389eb7c95220f2fd%3A0x5966f3c54d4ca092!2sYusup%20Abdrahmanov%20St%2C%20Bishkek%2C%20Kyrgyzstan!5e0!3m2!1sen!2sus!4v1732251504873!5m2!1sen!2sus"
 						width="100%"
 						height="450"
-						frameBorder="0"
 						style={{ border: 0 }}
-						allowFullScreen=""
 						aria-hidden="false"
-						tabIndex="0"
 					></iframe>
 				</div>
 			</div>
@@ -75,12 +72,3 @@ const Contact = () => {
 };
 
 export default Contact;
-<iframe
-	src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d2923.6836433161316!2d74.611676!3d42.879521!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1732251422686!5m2!1sen!2sus"
-	width="600"
-	height="450"
-	style="border:0;"
-	allowfullscreen=""
-	loading="lazy"
-	referrerpolicy="no-referrer-when-downgrade"
-></iframe>;
