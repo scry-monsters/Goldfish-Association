@@ -6,8 +6,8 @@ export default function Home() {
 	return (
 		<main>
 			<div className="relative">
-				<div className="bg-gradient-to-r from-orange-500 to-orange-600 text-white py-24">
-					<div className="container mx-auto text-center px-4">
+				<div className="bg-gradient-to-r from-[#112D4E] to-[#0F4C75] text-white py-24">
+					<div className="container flex flex-col place-content-center items-center mx-auto text-center px-4 min-h-[30vh]">
 						<h1 className="text-5xl font-bold mb-6">
 							Discover Inner Peace Through Goldfish Wisdom
 						</h1>
@@ -16,7 +16,7 @@ export default function Home() {
 						</p>
 						<Link
 							href="/teachings"
-							className="bg-white text-orange-600 px-8 py-3 rounded-full font-bold hover:bg-orange-100 inline-block"
+							className="bg-white text-orange-600 px-8 py-3 max-w-[180px] rounded-md font-bold hover:bg-orange-500 hover:text-white inline-block"
 						>
 							Begin Your Journey
 						</Link>
